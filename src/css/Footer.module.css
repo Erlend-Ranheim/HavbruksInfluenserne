@@ -1,0 +1,5 @@
+.container{
+    padding: var(--gutter);
+    color: var(--color-text);
+    background-color: var(--color-background);
+}

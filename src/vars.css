@@ -1,0 +1,15 @@
+:root {
+    --color-text: #f0f0f0;
+    --color-text-secondary: #b4b9be;
+    --color-background: #0a2943;
+    --color-secondary: #041625;
+
+    --border-radius: 0.3rem;
+    --font-roboto: "Roboto";
+    --gutter: 8rem;
+
+    --font-size-big: 3rem;
+    --font-size-medium: 2rem;
+    --font-size-small: 1rem;
+
+}

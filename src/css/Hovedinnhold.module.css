@@ -1,0 +1,26 @@
+@import "../vars.css";
+
+.container{
+    padding-left: var(--gutter);
+    padding-right: var(--gutter);
+    color: var(--color-text);
+    background-color: var(--color-background);
+}
+
+.hovedinnhold{
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.beskrivelse{
+    position: relative;
+    padding: 1rem;
+    margin-top: -2rem;
+    border-radius: var(--border-radius);
+    background-color: var(--color-secondary);
+    color: var(--color-text-secondary);
+}
+/*
+CSS for sesongvelger tab til venstre på siden
+ */

@@ -1,0 +1,8 @@
+.video {
+    object-fit: cover;
+    padding-left: var(--gutter);
+    padding-right: var(--gutter);
+    width: 100%;
+    background-color: var(--color-background);
+    display: block;
+}

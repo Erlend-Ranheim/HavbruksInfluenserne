@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+
+    padding: var(--gutter);
+    padding-top: 3rem;
+    color: var(--color-text);
+    background-color: transparent;
+}
+
+.logo{
+    height: 1.8rem;
+    background-color: transparent;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

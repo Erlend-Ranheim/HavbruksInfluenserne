@@ -1,10 +1,17 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import "@fontsource/inter";
 import './index.css'
-import App from './App.jsx'
+import Hovedinnhold from './components/Hovedinnhold.jsx'
+import Navbar from './components/Navbar.jsx'
+import Footer from './components/Footer.jsx'
+import Video from './components/Video.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+      <Navbar />
+      <Video />
+      <Hovedinnhold />
+      <Footer />
   </StrictMode>,
 )

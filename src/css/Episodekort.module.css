@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.image{
+    border-radius: var(--border-radius);
+    width: 20rem;
+}
