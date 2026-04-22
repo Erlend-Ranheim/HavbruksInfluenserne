@@ -3,9 +3,66 @@
     flex-direction: row;
     padding: 1rem;
     gap: 1rem;
+    border: 1rem;
+    margin: 1rem;
 }
 
-.image{
+.imageWrapper {
+    width: 40%;
+    height: 12rem;
+    flex-shrink: 0;
+}
+
+.image {
     border-radius: var(--border-radius);
-    width: 20rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.video {
+    border-radius: var(--border-radius);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.text {
+    align-self: center;
+    color: var(--color-text-secondary);
+}
+
+.title {
+    font-weight: bold;
+    color: var(--color-text);
+}
+
+.meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+
+.agelimit {
+
+    border-radius: var(--border-radius);
+    font-size: 0.75rem;
+}
+
+.container:hover .title {
+    color: var(--color-hover-text);
+}
+.container:hover .text {
+    color: var(--color-text);
+}
+
+
+.container:hover .image {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }

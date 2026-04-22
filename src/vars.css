@@ -1,8 +1,10 @@
 :root {
     --color-text: #f0f0f0;
-    --color-text-secondary: #b4b9be;
+    --color-text-secondary: #B4B9BE;
     --color-background: #0a2943;
     --color-secondary: #041625;
+    --color-hover-text: #8BC0EB;
+    --color-hover-background: #000000;
 
     --border-radius: 0.3rem;
     --font-roboto: "Roboto";

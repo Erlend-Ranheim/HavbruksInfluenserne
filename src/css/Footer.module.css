@@ -1,5 +1,45 @@
-.container{
-    padding: var(--gutter);
+.container {
+    padding: 2.5rem var(--gutter);
     color: var(--color-text);
-    background-color: var(--color-background);
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.editors {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.85rem;
+    opacity: 0.7;
+    flex-wrap: wrap;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.links a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: opacity 0.15s ease;
+}
+
+.links a:hover {
+    opacity: 0.7;
+}
+
+.divider {
+    opacity: 0.3;
+    font-size: 0.85rem;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    opacity: 0.5;
 }

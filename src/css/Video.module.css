@@ -6,3 +6,10 @@
     background-color: var(--color-background);
     display: block;
 }
+
+.logo {
+    position: absolute;
+    bottom: 8rem;
+    left: var(--gutter);
+    width: 25rem;
+}

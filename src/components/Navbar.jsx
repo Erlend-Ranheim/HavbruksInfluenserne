@@ -9,13 +9,16 @@ const Navbar = () => {
                 <img className={styles.logo} src={logo} alt="logo"/>
             </div>
             <ul className={styles.list}>
-                <li><svg viewBox="0 0 24 24" className="nrk-category" width="1.500em" height="1.500em" aria-hidden="true"
+                <li className={styles.itemBox}>
+                    <svg viewBox="0 0 24 24" className="nrk-category" width="1.500em" height="1.500em" aria-hidden="true"
                          focusable="false">
                     <path fill="currentColor" fill-rule="evenodd"
                           d="M4 4h5v5H4V4zm-2 7V2h9v9H2zm2 4h5v5H4v-5zm-2 7v-9h9v9H2zM20 4h-5v5h5V4zm-7-2v9h9V2h-9zm2 13h5v5h-5v-5zm-2 7v-9h9v9h-9z"></path>
-                </svg>Kategorier</li>
+                    </svg>
+                    Kategorier
+                </li>
 
-                <li>
+                <li className={styles.itemBox}>
                     <svg viewBox="0 0 24 24" className="nrk-search" width="1.500em" height="1.500em"
                          aria-hidden="true" focusable="false">
                         <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"
@@ -24,12 +27,12 @@ const Navbar = () => {
                     Søk
                 </li>
 
-                <li>
+                <li className={styles.itemBox}>
                     <svg viewBox="0 0 24 24" class="nrk-media-direktetv" width="1.500em" height="1.500em" aria-hidden="true" focusable="false"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M1 3h22v16H1V3zm2 2v12h18V5H3zm13 18H8v-2h8v2zM8 8.5c0 .82843-.67157 1.5-1.5 1.5S5 9.32843 5 8.5 5.67157 7 6.5 7 8 7.67157 8 8.5z"></path></svg>
                     Direkte
                 </li>
 
-                <li>
+                <li className={styles.itemBox}>
                     <svg viewBox="0 0 24 24" className="nrk-media-programguide" width="1.500em" height="1.500em"
                          aria-hidden="true" focusable="false">
                         <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"
@@ -37,7 +40,7 @@ const Navbar = () => {
                     </svg>
                     TV-guide
                 </li>
-                <li>
+                <li className={styles.itemBox}>
                     <svg viewBox="0 0 24 24" className="nrk-user-notloggedin" width="1.500em" height="1.500em"
                          aria-hidden="true" focusable="false">
                         <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"

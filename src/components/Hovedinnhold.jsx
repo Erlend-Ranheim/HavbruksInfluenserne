@@ -4,6 +4,7 @@ import Navbar from './Navbar.jsx'
 import Video from './Video.jsx'
 import Episoder from "./Episoder.jsx";
 import Sesongvelger from "./Sesongvelger.jsx";
+import Beskrivelse from "./Beskrivelse.jsx";
 
 
 
@@ -11,9 +12,7 @@ import Sesongvelger from "./Sesongvelger.jsx";
 const Hovedinnhold = () => {
     return (
         <div className={styles.container}>
-            <div className={styles.beskrivelse}>
-                Beskrivelse
-            </div>
+            <Beskrivelse />
             <div className={styles.hovedinnhold}>
                 <Sesongvelger />
                 <Episoder />
