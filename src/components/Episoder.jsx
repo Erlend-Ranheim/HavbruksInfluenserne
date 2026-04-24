@@ -6,7 +6,7 @@ const Episoder = () => {
 
     const episoder = [
         {
-            video: "/Videoprosjekt.mp4",
+            video: "/Videoprosjekt1.mp4",
             title: "1. Jobbe innen havbruk og leve på kystdistriktet",
             description: "Influenserne besøker et havbruksanlegg og snakker med arbeidere om hvordan det er å jobbe og leve i et kystdistrikt. Målet er å vise at havbruk er en spennende og variert arbeidsplass.",
             runtime: "42 min",
