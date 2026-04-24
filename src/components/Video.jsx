@@ -9,7 +9,7 @@ const Video = () => {
                     loop
                     muted
                     playsInline>
-                <source src="/havbrukVideoProsjekt.mp4" type="video/mp4" />
+                <source src="/Havbruksinfluencerne1.mp4" type="video/mp4" />
 
             </video>
             <img className={styles.logo} src="../../public/Havbruksinfluenserne-logo.png" alt=""/>
